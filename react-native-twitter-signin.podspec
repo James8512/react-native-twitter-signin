@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.source_files  = "ios/*.{h,m}"
 
   s.dependency "React"
-  s.dependency "TwitterKit", "~> 3.3"
+  s.dependency "TwitterKit", :git => 'https://github.com/tappytoon/twitter-kit-ios.git', :tag => '3.3'
 end
